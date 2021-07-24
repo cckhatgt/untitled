@@ -19,3 +19,4 @@ for i in range(5):
 	print('%s => %d (expected %d)' % (X[i].tolist(), predictions[i], y[i]))
 
 //test gui for testing branch
+//another line from local computer to be pushed for testing branch_2
