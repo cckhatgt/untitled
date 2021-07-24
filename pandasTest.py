@@ -37,6 +37,7 @@ gm = quandl.get('WIKI/GM', authtoken=auth_tok)
 
 print(gm.keys())
 print(gm.columns)
+print(gm.columns)
 
 # plt.plot(gm.index, gm['Adj. Close'])
 # plt.title('GM Stock Price')
