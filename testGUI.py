@@ -17,3 +17,5 @@ model.fit(X, y, epochs=500, batch_size=10)
 predictions = model.predict_classes(X)
 for i in range(5):
 	print('%s => %d (expected %d)' % (X[i].tolist(), predictions[i], y[i]))
+
+//test gui for testing branch
